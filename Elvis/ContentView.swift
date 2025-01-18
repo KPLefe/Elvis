@@ -18,10 +18,13 @@ struct ContentView: View {
                 .font(.largeTitle)
                 .fontWeight(.black)
                 .foregroundStyle(.purple)
+            Spacer()
               Image(systemName: systemNameImage)
                 .resizable()
                 .scaledToFit()
                 .foregroundStyle(.black)
+                .frame(width: 300, height: 300)
+            Spacer()
             Text(imagetext)
                 .font(.largeTitle)
                 .fontWeight(.black)
@@ -42,7 +45,7 @@ struct ContentView: View {
 
                 }
             }
-            
+            .tint(.purple) // interactive views (button pressing) use tint
             .buttonStyle(.borderedProminent)
             .font(.title2)
         }
