@@ -2,9 +2,9 @@ Use of @State private var. To change data within VStack. Display automatically c
 Button Action to change systemImageName to be "peace", "love" or "understanding."
 Button Action to change imageText to display below image to "Peace", "Love", "Understanding"
 Start with blank screen
+Use .tint on interactive views
+Add frame modifier to Image
+Adding Spacer() below Text or Image moves Image up the screen
 
-In images below: (Blank, Peace, Love, Understanding)
-![Screenshot 2025-01-18 at 4 37 50 PM](https://github.com/user-attachments/assets/77eb8926-e274-40c3-ac79-e18bd974b42d)
-![Screenshot 2025-01-18 at 4 38 18 PM](https://github.com/user-attachments/assets/d24b2a11-b08b-4ba4-9ae0-416ba7152f5d)
-![Screenshot 2025-01-18 at 4 38 28 PM](https://github.com/user-attachments/assets/cc4842bb-b951-42c1-9685-be9e1e502889)
-![Screenshot 2025-01-18 at 4 38 38 PM](https://github.com/user-attachments/assets/d74c7751-3602-4947-b2ae-dd20b75ebd22)
+In image below: (Blank, Peace, Love, Understanding)
+![Screenshot 2025-01-18 at 5 21 55 PM](https://github.com/user-attachments/assets/22a97271-515a-4aac-a56b-a5fef71ee329)
